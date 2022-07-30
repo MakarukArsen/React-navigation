@@ -1,0 +1,18 @@
+.MyButton{
+    border: 1px solid teal;
+    border-radius: 5px;
+    background-color: #fff;
+    color: teal;
+    cursor: pointer;
+    transition: all 0.25s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    height: 35px;
+    &:hover{
+        color: #fff;
+        background-color: teal;
+        border: 1px solid #fff;
+    }
+}
