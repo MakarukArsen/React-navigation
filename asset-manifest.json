@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/React-navigation/static/css/main.8fa11f52.css",
+    "main.js": "/React-navigation/static/js/main.d34dc47c.js",
+    "static/media/awesome.png": "/React-navigation/static/media/awesome.e86163806ffebd3055f2.png",
+    "static/media/zelya.jpg": "/React-navigation/static/media/zelya.529295cbf03694486f92.jpg",
+    "static/media/liliya.jpg": "/React-navigation/static/media/liliya.f0c90c7ccc0d72645305.jpg",
+    "static/media/teodor.jpg": "/React-navigation/static/media/teodor.d1767d66d3b52875a18e.jpg",
+    "static/media/undef.png": "/React-navigation/static/media/undef.a20be056f24d1ab8b354.png",
+    "static/media/male.png": "/React-navigation/static/media/male.55cb1812eacd40829833.png",
+    "static/media/anonymous.jpg": "/React-navigation/static/media/anonymous.8eab4f757b37a8998870.jpg",
+    "static/media/robin.jpg": "/React-navigation/static/media/robin.a7397f6ca992d54509ae.jpg",
+    "static/media/female.png": "/React-navigation/static/media/female.49d855005aa3411d7b8c.png",
+    "index.html": "/React-navigation/index.html",
+    "main.8fa11f52.css.map": "/React-navigation/static/css/main.8fa11f52.css.map",
+    "main.d34dc47c.js.map": "/React-navigation/static/js/main.d34dc47c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8fa11f52.css",
+    "static/js/main.d34dc47c.js"
+  ]
+}
