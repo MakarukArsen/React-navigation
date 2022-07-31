@@ -1,52 +1,56 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
+
 ::-webkit-scrollbar {
     width: 0px;
     background: rgba(255, 255, 255, 0.0);
-  }
-body{
+}
+
+body {
     height: 100%;
     background-color: #f7f5f5;
 }
-#root{
 
-}
-.App{
+#root {}
+
+.App {
     max-width: 1170px;
     padding: 15px;
     margin: 0 auto;
     height: 100%;
 }
-.home-page{
-    .title{
+
+.home-page {
+    .title {
         margin-bottom: 15px;
     }
-    .text{
 
-    }
+    .text {}
 }
-.Post-list{
+
+.Post-list {
     display: flex;
     flex-direction: column;
     align-items: center;
-    .post-list__title{
+
+    .post-list__title {
         gap: 10px;
         text-align: center;
-        margin: 25px 0px;
+        margin: 0px 0px 25px 0px;
     }
 }
 
-.InstaPosts{
+.InstaPosts {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 40px;
 }
 
-.Contacts{
+.Contacts {
     display: flex;
     flex-direction: column;
     align-items: center;

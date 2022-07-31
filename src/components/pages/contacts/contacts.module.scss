@@ -1,52 +1,65 @@
-.Contacts{
+.Contacts {
     width: 450px;
 }
-.form{
+
+.form {
     display: flex;
     align-items: center;
     margin-bottom: 25px;
     gap: 10px;
-    .search{
+
+    .search {
         flex: 0 0 80%;
         height: 30px;
         padding-left: 10px;
     }
-    .checkbox{
+
+    .checkbox {
         display: flex;
         align-items: center;
-        svg{
+
+        svg {
             fill: black;
             transition: all 0.2s;
         }
-        input{
+
+        input {
             display: none;
         }
     }
-    .maleCheckbox{
-        svg{
-            &:hover{
+
+    .maleCheckbox {
+        svg {
+            &:hover {
                 cursor: pointer;
                 fill: blue;
             }
-            &[status]{
+
+            &[status] {
                 fill: blue;
             }
         }
     }
-    .femaleCheckbox{
-        svg{
-            &:hover{
+
+    .femaleCheckbox {
+        svg {
+            &:hover {
                 cursor: pointer;
                 fill: rgb(255, 119, 142);
             }
-            &[status]{
+
+            &[status] {
                 fill: rgb(255, 119, 142);
             }
         }
     }
 }
 
-.Contact{
+a {
+    text-decoration: none;
+}
+
+.Contact {
     border-radius: 8px;
     padding: 10px;
     background-color: #fff;
@@ -54,21 +67,31 @@
     display: flex;
     align-items: center;
     gap: 20px;
+    color: black;
+    text-decoration: none;
+    transition: all 0.2s;
+
+    &:hover {
+        background-color: rgb(240, 238, 238);
+    }
 }
-.personImage{
+
+.personImage {
     object-fit: cover;
     width: 80px;
     height: 80px;
     border-radius: 50%;
 }
-.initials{
+
+.initials {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 5px;
     margin-right: auto;
 }
-.genderIcon{
+
+.genderIcon {
     object-fit: cover;
     width: 30px;
     height: 30px;

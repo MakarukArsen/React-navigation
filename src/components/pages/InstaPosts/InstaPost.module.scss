@@ -1,7 +1,8 @@
-.userName{
+.userName {
     font-weight: bold;
 }
-.InstaPost{
+
+.InstaPost {
     display: flex;
     flex-direction: column;
     background-color: #fff;
@@ -11,107 +12,123 @@
     height: 100%;
     border-radius: 15px;
     gap: 10px;
-    .header{
+
+    .header {
         display: flex;
         align-items: center;
         gap: 15px;
-        .userIcon{
+
+        .userIcon {
             border-radius: 50%;
             width: 80px;
             height: 80px;
             object-fit: cover;
         }
-        .userInfo{
-            .userSubtitle{
 
-            }
+        .userInfo {
+            .userSubtitle {}
         }
     }
-    .main{
+
+    .main {
         display: flex;
         justify-content: center;
-        .image{
+
+        .image {
             max-width: 100%;
             max-height: 100%;
         }
     }
-    .footer{
-        .actions{
+
+    .footer {
+        .actions {
             display: flex;
             flex-direction: row;
             align-items: center;
             gap: 10px;
             margin-bottom: 12px;
-            .like{
+
+            .like {
                 flex: 0 0 30px;
                 height: 30px;
                 fill: #fff;
                 stroke: red;
                 stroke-width: 15;
-                transition: all .2s;
+                transition: all 0.2s;
                 cursor: pointer;
-                &:hover{
+
+                &:hover {
                     fill: red;
                 }
             }
-            .comment{
+
+            .comment {
                 flex: 0 0 30px;
                 height: 30px;
                 stroke: black;
                 stroke-width: 25;
-                transition: all .2s;
+                transition: all 0.2s;
                 cursor: pointer;
                 fill: #fff;
-                circle{
+
+                circle {
                     fill: black;
                 }
-                &:hover{
+
+                &:hover {
                     fill: black;
-                    circle{
+
+                    circle {
                         fill: white;
                         stroke: #fff;
                     }
                 }
             }
-            .send{
+
+            .send {
                 flex: 0 0 30px;
                 height: 30px;
                 margin-right: auto;
                 stroke-width: 20;
-                transition: all .2s;
+                transition: all 0.2s;
                 cursor: pointer;
                 fill: #fff;
                 stroke: black;
-                &:hover{
+
+                &:hover {
                     fill: black;
                 }
             }
-            .save{
+
+            .save {
                 flex: 0 0 30px;
                 height: 30px;
-                transition: all .2s;
+                transition: all 0.2s;
                 fill: #fff;
                 cursor: pointer;
                 stroke: black;
-                &:hover{
+
+                &:hover {
                     fill: black;
                 }
             }
         }
-        .activity{
-            .views{
+
+        .activity {
+            .views {
                 margin-bottom: 5px;
                 font-weight: bold;
             }
-            .userText{
+
+            .userText {
                 display: flex;
-                .userName{
+
+                .userName {
                     white-space: nowrap;
                     margin-right: 10px;
                 }
-                .text{
 
-                }
+                .text {}
             }
         }
     }

@@ -1,6 +1,5 @@
-// import MyButton from "./UI/MyButton";
-import classes from "./posts.module.scss"
-import MyButton from "../../UI/MyButton/MyButton"
+import classes from "./posts.module.scss";
+import MyButton from "../../UI/MyButton/MyButton";
 const Post = (props) => {
     return (
         <div className={classes.post}>
